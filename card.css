@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;300;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between ;
+    padding: 20px 50px;
+    top: 0;
+    position: relative;
+    background-color: #e9e1d6;
+}
+
+.img_header img {
+    margin: 0 5px;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    color: #9b8868;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.img_header{
+    position: relative;
+    top: 10px;
+}
+
+header hr {
+    border-top: 2px solid #9b8868;
+    width: 98vw;
+    position: absolute;
+    left: 8px;
+    bottom: 0;
+}
+
+.product_container {
+    display: flex;
+    padding: 50px 50px;
+    background-color: #e9e1d6;
+}
+
+.product_block {
+    margin-left: 350px;
+    color: #9b8868;
+    position: relative;
+}
+
+.product_block h2 {
+    color: crimson;
+}
+
+.product_block p {
+    width: 60%;
+}
+
+.product_block p:after {
+    content: "Гарантия 1 год";
+    display: block;
+    color: crimson;
+    font-weight: 300;
+}
+
+.product_block button {
+    border: none;
+    background-color: crimson;
+    color: white;
+    padding: 10px 60px;
+    font-family: 'IBM Plex Serif', serif;
+    position: relative;
+}
+
+#img_button {
+    position: absolute;
+    right: 710px;
+    bottom: 10px;
+}
+
+.product_img {
+    border: 5px solid white;
+    width: 420px;
+    position: relative;
+    left: 100px;
+}
+
+.product_img:after {
+    content: "Аксессуары / Седла / Brooks";
+    color: #9b8868;
+    display: block;
+    position: absolute;
+    top: -50px;
+}
+
+.product_img img {
+    position: absolute;
+    left: -110px;
+    top: -20px;
+}
+
+.tabs_container {
+    color: #9b8868;
+    padding: 50px 60px;
+    background-color: #e9e1d6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a b c d"
+    "e e e e"
+    ;
+}
+
+.tabs_item {
+    text-align: center;
+    
+}
+
+.a {
+    grid-area: a;
+    opacity: 0.7;
+    border: 1px solid #9b8868;
+    border-right: 1px solid #9b8868;
+    border-top: 1px solid #9b8868;
+    border-left: 1px solid #9b8868;
+    border-bottom: 2px solid #9b8868;
+}
+
+.b {
+    grid-area: b;
+    border: 1px solid #9b8868;
+    opacity: 0.7;
+    border-top: 1px solid #9b8868;
+    border-bottom: 2px solid #9b8868;
+}
+
+.c {
+    grid-area: c;
+    border-top: 2px solid #9b8868;
+    border-right: 2px solid #9b8868;
+    border-left: 2px solid #9b8868;
+}
+
+.d {
+    grid-area: d;
+    opacity: 0.7;
+    border-right: 1px solid #9b8868;
+    border-top: 1px solid #9b8868;
+    border-bottom: 2px solid #9b8868;
+}
+
+.tabs_block {
+    padding: 60px 50px;
+    border-right: 2px solid #9b8868;
+    border-left: 2px solid #9b8868;
+    border-bottom: 2px solid #9b8868;
+    grid-area: e;
+}
+
+.tabs_block p {
+    margin: 0;
+}
+
+.tabs_block h3 {
+    margin: 0;
+}
+
+.tabs_img {
+    margin-bottom: 20px;
+}
+
+.tabs_img img {
+    max-width: 14px
+}
+
+.tabs_img::before {
+    content: "JawPike 18 / 03 / 2018";
+    display: block;
+    font-size:14px;
+}
+
+
+.tabs_block button {
+    background-color: #e9e1d6;
+    border: 1px solid #9b8868;
+    padding: 10px 30px;
+    color: #9b8868;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.accessories_container {
+    color: #9b8868;
+    background-color: #e9e1d6;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.accessories_text {
+   font-size: 40px;
+   text-align: center;
+}
+
+.accessories_block {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+    padding: 0 100px;
+}
+
+.accessories_item {
+    width: 170px;
+    height: 230px;
+    border: 5px solid white;
+    position: relative;
+}
+
+.accessories_item img {
+    position: absolute;
+    right: -30px;
+    top: 20px;
+}
+
+.accessories_item-text {
+    position: relative;
+    top: 270px;
+}
+
+.accessories_item-text p {
+    margin: 0;
+    text-align: center;
+}
+
+.accessories_item-text p:first-of-type {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.accessories_item-text p:nth-of-type(2) {
+    font-size: 14px;
+}
+
+.accessories_item-text p:nth-of-type(3) {
+    font-size: 14px;
+}
+
+.accessories_item-text p:nth-of-type(4) {
+    font-size: 20px;
+    color: rgb(222, 82, 82);
+    font-weight: 700;
+}
+
+.accessories_item-text img {
+    background-color: rgb(222, 82, 82);
+    padding: 10px 5px;
+    position: absolute;
+    top: -55px;
+    left: 70px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e1d6;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer li {
+    margin-left: 30px ;
+}
+
+footer a {
+    color: #9b8868;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer_nav {
+    border-top: 2px solid #9b8868;
+    border-bottom: 2px solid #9b8868;
+}
+
+.footer_block {
+    color: #9b8868;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_img {
+    position: relative;
+    top: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 20px 20px;
+    }
+
+    header li {
+        font-size: 11px;
+    }
+   
+    .product_block {
+        margin-left: 190px;
+    }
+
+    .product_block p {
+        width: 100%;                       
+    }
+    
+    .product_img {
+        width: 800px;
+    }
+    
+    .product_img img {
+        width: 450px;
+    }
+
+    #img_button {
+        right: 395px;
+        bottom: 10px;
+    }
+
+    .accessories_container {
+        padding-bottom: 100px;
+    }
+
+    .accessories_block {
+        padding: 0 50px;
+    }
+
+    footer { 
+        padding: 20px 20px;
+    }
+
+    .footer_block {
+        padding-left: 20px;
+    }
+
+    footer li {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 100px;
+    }
+
+    .img_header img {
+        width: 10px;
+    }
+
+    header li {
+        font-size: 8px;
+        margin-left: 5px;
+    }
+
+    .product_container {
+        padding: 10px 50px;
+    }
+    
+    
+    .product_img {
+        margin-top: 70px;
+        width: 800px;
+        height: 300px;
+    }
+    
+    .product_img img {
+        width: 350px;
+        top: 20px;
+    }
+
+    #img_button {
+        right: 235px;
+        bottom: 10px;
+    }
+
+    .access_img {
+        width: 100%;
+    }
+
+    .accessories_item {
+        width: 170px;
+        height: 130px;
+        margin: 0 20px;
+        border: 5px solid white;
+        position: relative;
+    }
+
+    .accessories_item img {
+        right: 0px;
+        top: 20px;
+    }
+
+    .accessories_item-text img {
+        top: -40px;
+        left: 40px;
+    }
+
+    .accessories_item-text {
+        top: 150px;
+    }
+
+    .accessories_item-text p:first-of-type {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+    
+    .accessories_item-text p:nth-of-type(2) {
+        font-size: 12px;
+    }
+    
+    .accessories_item-text p:nth-of-type(3) {
+        font-size: 12px;
+    }
+
+    .accessories_container button {
+        right: 25%;
+    }
+    
+    footer li {
+        font-size: 8px;
+    }
+}

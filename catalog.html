@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Велосипеды</title>
+    <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="svg/logo.svg" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="catalog.html">ВЕЛОСИПЕДЫ</a></li>
+                <li><a href="card.html">АКСЕССУАРЫ</a></li>
+                <li><a href="#">ЗАПЧАСТИ</a></li>
+                <li><a href="#">МАСТЕРСКАЯ</a></li>
+                <li><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
+            <div class="img_header">
+                <img src="svg/user.svg" alt="user">
+                <img src="svg/search.svg" alt="search">
+                <img src="svg/basket.svg" alt="backet">
+            </div>
+    </header>
+
+    <main>
+
+        <section class="sorting_container">
+
+            <div class="sorting_block">
+                <p>Сбросить фильтр Х</p>
+
+                <select>
+                    <option>По популярности</option>
+                    <option>По цене</option>
+                    <option>По размеру члена</option>
+                </select>
+            </div>
+
+            <p>Показывать по <strong>9</strong> | 24 | Все</p>
+
+        </section>
+
+        <section class="bicycle_container">
+
+            <aside>
+
+                <p>Цена</p>
+    
+                <div class="price_input">
+                    <label for="price">
+                        <input type="text" id="price" placeholder="28 000">
+                    </label>
+                    <span>-   </span>
+                    <label for="price2">
+                        <input type="text" id="price2" placeholder="180 000">
+                    </label>
+                </div>
+    
+                <hr>
+    
+                <p>ЭЛЕКТРОВЕЛОСИПЕД</p>
+    
+                <label for="electro">
+                    <input type="checkbox" id="electro" name="electro" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Да</span>                
+                </label>
+    
+                <label for="electro2">
+                    <input type="checkbox" id="electro2" name="electro" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Нет</span>
+                </label>
+    
+                <hr>
+    
+                <p>МАТЕРИАЛ РАМЫ</p>
+    
+                <label for="mat">
+                    <input type="checkbox" id="mat" name="mat" class="aside_checkbox">
+                    <span  class="aside_fake-checkbox"></span>
+                    <span>Сталь</span>                
+                </label>
+    
+                <label for="mat2">
+                    <input type="checkbox" id="mat2" name="mat" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Карбон</span>
+                </label>
+    
+                <hr>
+    
+                <p>ЦВЕТ</p>
+    
+                <label for="color">
+                    <input type="checkbox" id="color" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Черный</span>                
+                </label>
+    
+                <label for="color2">
+                    <input type="checkbox" id="color2" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Коричневый</span>
+                </label>
+    
+                <label for="color3">
+                    <input type="checkbox" id="color3" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Красный</span>
+                </label>
+    
+                <label for="color4">
+                    <input type="checkbox" id="color4" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Голубой</span>
+                </label>
+    
+                <label for="color5">
+                    <input type="checkbox" id="color5" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Хаки</span>
+                </label>
+    
+                <hr>
+    
+                <p>КОЛЕСА</p>
+    
+                <label for="wheel">
+                    <input type="checkbox" id="wheel" name="wheel" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>20"</span>                
+                </label>
+    
+                <label for="wheel2">
+                    <input type="checkbox" id="wheel2" name="wheel" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>22"</span>
+                </label>
+    
+                <label for="wheel3">
+                    <input type="checkbox" id="wheel3" name="wheel" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>24"</span>
+                </label>
+    
+                <label for="wheel4">
+                    <input type="checkbox" id="wheel4" name="wheel" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>26"</span>
+                </label>
+    
+                <hr>
+    
+                <button>ПОКАЗАТЬ</button>
+    
+            </aside>
+
+            <div class="asideButton">
+                <button>Показать</button>
+                <div class="asideHover">
+                    
+                <p>Цена</p>
+    
+                <div class="price_input">
+                    <label for="price">
+                        <input type="text" id="price" placeholder="28 000">
+                    </label>
+                    <span>-   </span>
+                    <label for="price2">
+                        <input type="text" id="price2" placeholder="180 000">
+                    </label>
+                </div>
+    
+                <hr>
+    
+                <p>ЭЛЕКТРОВЕЛОСИПЕД</p>
+    
+                <label for="electro">
+                    <input type="checkbox" id="electro" name="electro" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Да</span>                
+                </label>
+    
+                <label for="electro2">
+                    <input type="checkbox" id="electro2" name="electro" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Нет</span>
+                </label>
+    
+                <hr>
+    
+                <p>МАТЕРИАЛ РАМЫ</p>
+    
+                <label for="mat">
+                    <input type="checkbox" id="mat" name="mat" class="aside_checkbox">
+                    <span  class="aside_fake-checkbox"></span>
+                    <span>Сталь</span>                
+                </label>
+    
+                <label for="mat2">
+                    <input type="checkbox" id="mat2" name="mat" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Карбон</span>
+                </label>
+    
+                <hr>
+    
+                <p>ЦВЕТ</p>
+    
+                <label for="color">
+                    <input type="checkbox" id="color" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Черный</span>                
+                </label>
+    
+                <label for="color2">
+                    <input type="checkbox" id="color2" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Коричневый</span>
+                </label>
+    
+                <label for="color3">
+                    <input type="checkbox" id="color3" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Красный</span>
+                </label>
+    
+                <label for="color4">
+                    <input type="checkbox" id="color4" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Голубой</span>
+                </label>
+    
+                <label for="color5">
+                    <input type="checkbox" id="color5" name="color" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>Хаки</span>
+                </label>
+    
+                <hr>
+    
+                <p>КОЛЕСА</p>
+    
+                <label for="wheel">
+                    <input type="checkbox" id="wheel" name="wheel" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>20"</span>                
+                </label>
+    
+                <label for="wheel2">
+                    <input type="checkbox" id="wheel2" name="wheel" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>22"</span>
+                </label>
+    
+                <label for="wheel3">
+                    <input type="checkbox" id="wheel3" name="wheel" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>24"</span>
+                </label>
+    
+                <label for="wheel4">
+                    <input type="checkbox" id="wheel4" name="wheel" class="aside_checkbox">
+                    <span class="aside_fake-checkbox"></span>
+                    <span>26"</span>
+                </label>
+                </div>
+            </div>
+
+            <div class="bicycle_block">
+
+                <div class="bicycle_item">
+                    <img src="photo/pocalypse-fekete-26.png" alt="bicycle">
+                    <div class="bicycle_item-text">
+                        <img src="svg/cart.svg" alt="cart">
+                        <p>Peuzer Kropper Apocalypse</p>
+                        <p>24”, сталь Hi-Ten</p>
+                        <p>Венгрия</p>
+                        <p>75 000 ₽</p>
+                        <p>90 000 P</p>
+                    </div>
+                </div>
+
+                <div class="bicycle_item">
+                    <img src="photo/pocalypse-fekete-13.png" alt="bicycle">
+                    <div class="bicycle_item-text">
+                        <img src="svg/cart.svg" alt="cart">
+                        <p>Schwimm Stingold Oss</p>
+                        <p>20”+24”, сталь</p>
+                        <p>США</p>
+                        <p>34 000 ₽</p>
+                        <p>40 800 P</p>
+                        <p>-20%</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="bicycle_item">
+                    <span>NEW</span>
+                    <img src="photo/pocalypse-fekete-12.png" alt="bicycle">
+                    <div class="bicycle_item-text">
+                        <img src="svg/cart.svg" alt="cart">
+                        <p>Darley Ravidson</p>
+                        <p>20”, сталь</p>
+                        <p>Китай</p>
+                        <p>23 000 ₽</p>
+                    </div>
+                </div>
+
+                <div class="bicycle_item">
+                    <img src="photo/pocalypse-fekete-37.png" alt="bicycle">
+                    <div class="bicycle_item-text">
+                        <img src="svg/cart.svg" alt="cart">
+                        <p>Miracle Cyclone Electro</p>
+                        <p>26”, 500W, 5 скоростей</p>
+                        <p>США</p>
+                        <p>154 000 ₽</p>
+                        <p>184 800 P</p>
+                        <p>-20%</p>
+                    </div>
+                </div>
+
+                <div class="bicycle_item">
+                    <span>NEW</span>
+                    <img src="photo/pocalypse-fekete-28.png" alt="bicycle">
+                    <div class="bicycle_item-text">
+                        <img src="svg/cart.svg" alt="cart">
+                        <p>X-back Rainmobile</p>
+                        <p>24”, сталь</p>
+                        <p>Китай</p>
+                        <p>42 000 ₽</p>
+                    </div>
+                </div>
+
+                <div class="bicycle_item">
+                    <img src="photo/pocalypse-fekete-26.png" alt="bicycle">
+                    <div class="bicycle_item-text">
+                        <img src="svg/cart.svg" alt="cart">
+                        <p>Peuzer Kropper Apocalypse</p>
+                        <p>20”, сталь</p>
+                        <p>Китай</p>
+                        <p>23 000 ₽</p>
+                        <p>80 000 P</p>
+                    </div>
+                </div>
+
+                <div class="bicycle_item">
+                    <img src="photo/pocalypse-fekete-26.png" alt="bicycle">
+                    <div class="bicycle_item-text">
+                        <img src="svg/cart.svg" alt="cart">
+                        <p>Peuzer Kropper Apocalypse</p>
+                        <p>24”, сталь Hi-Ten</p>
+                        <p>Венгрия</p>
+                        <p>75 000 ₽</p>
+                        <p>80 000 P</p>
+                    </div>
+                </div>
+
+                <div class="bicycle_item">
+                    <img src="photo/pocalypse-fekete-73.png" alt="bicycle">
+                    <div class="bicycle_item-text">
+                        <img src="svg/cart.svg" alt="cart">
+                        <p>Best4You Copter</p>
+                        <p>20”+24”, сталь</p>
+                        <p>США</p>
+                        <p>34 000 ₽</p>
+                        <p>47 600 P</p>
+                        <p>-40%</p>
+                    </div>
+                </div>
+
+                <div class="bicycle_item">
+                    <span>NEW</span>
+                    <img src="photo/pocalypse-fekete-69.png" alt="bicycle">
+                    <div class="bicycle_item-text">
+                        <img src="svg/cart.svg" alt="cart">
+                        <p>Darley Ravidson</p>
+                        <p>20”, сталь</p>
+                        <p>Китай</p>
+                        <p>23 000 ₽</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bicycle_page">
+                <hr>
+                <p></p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer_nav">
+            <nav>
+                <ul>
+                    <li><a href="#">ВЕЛОСИПЕДЫ</a></li>
+                    <li><a href="#">АКСЕССУАРЫ</a></li>
+                    <li><a href="#">ЗАПЧАСТИ</a></li>
+                    <li><a href="#">МАСТЕРСКАЯ</a></li>
+                    <li><a href="#">ТЕСТ-ДРАЙВ</a></li>
+                    <li><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                    <li><a href="#">РАССРОЧКА</a></li>
+                    <li><a href="#">ВСТУПЛЕНИЕ В КЛУБ</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer_block">
+            <div class="footer_img">
+                <img src="svg/vk.svg" alt="vk">
+                <img src="svg/facebook.svg" alt="facebook">
+                <img src="svg/instagram.svg" alt="instagram">
+            </div>
+            <img src="svg/logo.svg" alt="logo">
+            <p>(c)2018 Политика конфидециальности</p>
+        </div>
+    </footer>
+
+</body>
+</html>

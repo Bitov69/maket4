@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;300;500;700&display=swap');
+
+body {
+    font-family: 'IBM Plex Serif', serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    margin: 20px 50px;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+header img {
+    margin: 0 10px;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    color: #9b8868;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.img {
+    position: absolute;
+    right: -200px;
+    top: 15px;
+}
+
+.shop_container {
+    color: #9b8868;
+    padding: 400px 0;
+    background-image: url(photo/main-slider-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.shop_block {
+    position: absolute;
+    right: 5em;
+    top: 13em;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop_block p:first-child {
+    width: 100%;
+    margin: 0;
+    font-size: 85px;
+    font-weight: 500;
+}
+
+.shop_block p:last-child {
+    width: 100%;
+    margin: 0;
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.shop_container button {
+    font-family: 'IBM Plex Serif', serif; ;
+    color: #9b8868;
+    background: transparent;
+    border: 1px solid #9b8868;
+    padding: 10px 30px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 300px;
+    right: 320px;
+}
+
+.social {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.social img {
+    margin: 10px;
+}
+
+.catalog_container {
+    color: #9b8868;
+    background-color: #e9e1d6;
+    padding-top: 50px;
+    padding-bottom: 220px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog_text p {
+    text-align: center;
+    width: 70%;
+    margin: 0;
+}
+
+.catalog_text p:first-child {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.catalog_text p:last-child {
+    font-size: 20px;
+}
+
+.catalog_block {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+    padding: 0 250px;
+}
+
+.catalog_item {
+    width: 170px;
+    height: 230px;
+    border: 5px solid white;
+    position: relative;
+}
+
+.catalog_item img {
+    position: absolute;
+    right: -30px;
+    top: 20px;
+}
+
+.catalog_item-text {
+    position: relative;
+    top: 270px;
+}
+
+.catalog_item-text p {
+    margin: 0;
+    text-align: center;
+}
+
+.catalog_item-text p:first-of-type {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.catalog_item-text p:nth-of-type(2) {
+    font-size: 14px;
+}
+
+.catalog_item-text p:nth-of-type(3) {
+    font-size: 14px;
+}
+
+.catalog_item-text p:nth-of-type(4) {
+    font-size: 20px;
+    color: rgb(222, 82, 82);
+    font-weight: 700;
+}
+
+.catalog_item-text img {
+    background-color: rgb(222, 82, 82);
+    padding: 10px 5px;
+    position: absolute;
+    top: -55px;
+    left: 70px;
+}
+
+.catalog_container button {
+    position: absolute;
+    bottom: 48px;
+    left: 40%;
+    background: #e9e1d6;
+    width: 300px;
+    height: 60px;
+    border: none;
+    font-family: 'IBM Plex Serif', serif;  
+}
+
+.catalog_container button:after {
+    content: "ВСЕ ВЕЛОСИПЕДЫ";
+    position: absolute;
+    bottom: 6px;
+    left: 30px;
+    display: block;
+    padding: 10px 20px;
+    width: 200px;
+    background-color: #e9e1d6;
+    border: 1px solid #9b8868;
+    color: #9b8868;  
+    font-size: 20px;
+}
+
+.catalog_container hr {
+    bottom: 65px;
+    left: 50%;
+    width: 80vw;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-top: 2px solid #9b8868
+}
+
+.workshop_container {
+    display: flex;
+    padding: 100px 100px;
+    background-image: url(photo/main-slider-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.workshop_text h2 {
+    color: #9b8868;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 0;
+}
+
+.workshop_block {
+    margin: 0 50px;
+}
+
+.workshop_text p {
+    color: white;
+    font-weight: 300;
+    width: 100%;
+    font-size: 22px;
+}
+
+.workshop_block button {
+    font-family: 'IBM Plex Serif', serif; ;
+    color: #9b8868;
+    background: transparent;
+    border: 1px solid #9b8868;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.accessories_container {
+    color: #9b8868;
+    background-color: #e9e1d6;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.accessories_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accessories_text p {
+    text-align: center;
+    width: 70%;
+    margin: 0;
+}
+
+.accessories_text p:first-child {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.accessories_text p:last-child {
+    font-size: 20px;
+}
+
+.accessories_block {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+    padding: 0 100px;
+}
+
+.accessories_item {
+    width: 170px;
+    height: 230px;
+    border: 5px solid white;
+    position: relative;
+}
+
+.accessories_item img {
+    position: absolute;
+    right: -30px;
+    top: 20px;
+}
+
+.accessories_item-text {
+    position: relative;
+    top: 270px;
+}
+
+.accessories_item-text p {
+    margin: 0;
+    text-align: center;
+}
+
+.accessories_item-text p:first-of-type {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.accessories_item-text p:nth-of-type(2) {
+    font-size: 14px;
+}
+
+.accessories_item-text p:nth-of-type(3) {
+    font-size: 14px;
+}
+
+.accessories_item-text p:nth-of-type(4) {
+    font-size: 20px;
+    color: rgb(222, 82, 82);
+    font-weight: 700;
+}
+
+.accessories_item-text img {
+    background-color: rgb(222, 82, 82);
+    padding: 10px 5px;
+    position: absolute;
+    top: -55px;
+    left: 70px;
+}
+
+.accessories_container button {
+    font-family: 'IBM Plex Serif', serif; ;
+    color: #9b8868;
+    position: absolute;
+    bottom: 100px;
+    right: 36%;
+    background-color: #e9e1d6;
+    border: none;
+    width: 380px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.accessories_container button:after {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    content: "ПЕРЕЙТИ В КАТАЛОГ";
+    width: 220px;
+    background-color: #e9e1d6;
+    border: 1px solid #9b8868;
+    padding: 10px 30px;
+}
+
+.accessories_container hr {
+    border-top: 2px solid #9b8868;
+    width: 80vw; 
+    position: absolute;
+    bottom: 112px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.club_container {
+    display: flex;
+    padding-top: 50px ;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    background-image: url(photo/main-slider-pic.jpg);
+    background-size: 200%;
+    background-position: right;
+    position: relative;
+}
+
+.club_block h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #9b8868;
+}
+
+.club_block p {
+    font-size: 20px;
+    width: 70%;
+    color: white;
+}
+
+.club_input input {
+    background: transparent;
+    padding: 10px 0;
+    width: 40%;
+    border: 1px solid #9b8868;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+
+.email input {
+    background: transparent;
+    padding: 10px 0;
+    width: 82%;
+    border: 1px solid #9b8868;
+    font-size: 16px;
+    margin: 10px 5px;
+} 
+
+.club_radio {
+    margin: 20px 0;
+}
+
+.club_radio label {
+    color: white;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.club_block label:last-of-type {
+    color: white;
+    font-weight: 300;
+}
+
+.club_block button {
+    font-family: 'IBM Plex Serif', serif; ;
+    color: #9b8868;
+    background: transparent;
+    border: 1px solid #9b8868;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.catalog_container hr {
+    position: absolute;
+    width: 1000px;
+}
+
+#club-pic {
+    max-height: 550px;
+}
+
+.radio {
+    display: none;
+}
+
+.fake_radio {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9b8868;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+}
+
+.fake_radio::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 14px;
+    height: 14px;
+    background-color: #9b8868;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .2s;
+}
+
+.radio:checked + .fake_radio::before {
+    opacity: 1;
+}
+
+.checkbox {
+    display: none;
+}
+
+.fake_checkbox {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9b8868;
+    top: 5px;
+}
+
+.fake_checkbox::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1em;
+    height: 1em;
+    opacity: 0;
+    transition: .2s;
+}
+
+.checkbox:checked + .fake_checkbox::before {
+    opacity: 1;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    bottom: -30px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer li {
+    margin-left: 30px ;
+}
+
+footer a {
+    color: #9b8868;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer_nav {
+    border-top: 2px solid #9b8868;
+    border-bottom: 2px solid #9b8868;
+}
+
+.footer_block {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_img {
+    position: relative;
+    top: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    header ul li {
+        font-size: 14px;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .shop_container {
+        padding: 285px 0;
+    }
+
+    .shop_block p:first-child {
+        width: 100%;
+        margin: 0;
+        font-size: 45px;
+        font-weight: 500;
+    }
+    
+    .shop_block p:last-child {
+        width: 100%;
+        margin: 0;
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .shop_container button {
+        bottom: 150px;
+        right: 250px;
+    }
+
+    .social {
+        bottom: 10px;
+    }
+
+    .catalog_container {
+        padding-top: 50px;
+        padding-bottom: 250px;
+    }
+
+    .catalog_container hr {
+        width: 80vw;
+    }
+    
+    .catalog_block {
+        margin: 100px 0;
+        padding: 0 150px;
+    }
+
+    .catalog_container button {
+        bottom: 48px;
+        left: 36%; 
+    }
+
+    .workshop_container {
+        padding:  50px 100px;
+    }
+
+    .workshop_container img {
+        width: fit-content;
+        height: fit-content;
+        background-size: auto;
+        margin-top: 50px;
+    }
+
+    .workshop_text p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .accessories_block {
+        padding: 0 50px;
+    }
+
+    .accessories_container button {
+        right: 30%;
+    }   
+    
+    footer li {
+        font-size: 12px;
+    }
+
+    .footer_nav {
+        border: none;
+    }
+
+    #club-pic {
+        display: none;
+    }
+
+    .club_container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header ul li {
+        font-size: 10px;
+    }
+
+    #logo {
+        max-width: 120px;
+    }
+
+    .shop_container {
+        padding: 210px 0;
+        background-image: url(photo/main-slider-pic.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .shop_block {
+        top: 100px;
+        right: 40px;
+    }
+    
+    .shop_block p:first-child {
+        font-size: 45px;
+        font-weight: 500;
+    }
+    
+    .shop_block p:last-child {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    
+    .shop_container button {
+        font-size: 20px;
+        right: 120px;
+    }
+    
+    .catalog_text p {
+        width: 100%;
+    }
+    
+    .catalog_text p:first-child {
+        font-size: 24px;
+    }
+    
+    .catalog_text p:last-child {
+        font-size: 18px;
+    }
+    
+    .catalog_block {
+        padding: 0 20px;
+    }
+
+    .catalog_container hr {
+        width: 80vw;
+    }
+
+    .catalog_container button {
+        left: 30%;
+    }
+
+    .workshop_container {
+        padding-top: 20px;
+    }
+
+    .workshop_container img {
+        width: 50%;
+        margin: 50px 0;
+    }
+    
+    .workshop_text p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .access_img {
+        width: 100%;
+    }
+
+    .accessories_item {
+        width: 170px;
+        height: 130px;
+        margin: 0 20px;
+        border: 5px solid white;
+        position: relative;
+    }
+
+    .accessories_item img {
+        right: 0px;
+        top: 20px;
+    }
+
+    .accessories_item-text img {
+        top: -40px;
+        left: 40px;
+    }
+
+    .accessories_item-text {
+        top: 150px;
+    }
+
+    .accessories_item-text p:first-of-type {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+    
+    .accessories_item-text p:nth-of-type(2) {
+        font-size: 12px;
+    }
+    
+    .accessories_item-text p:nth-of-type(3) {
+        font-size: 12px;
+    }
+
+    .accessories_container button {
+        right: 25%;
+    }
+
+    .club_container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 200px;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    footer li {
+        font-size: 10px;
+    }
+
+    #club-pic {
+        display: none;
+    }
+    
+}
